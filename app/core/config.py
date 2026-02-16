@@ -44,7 +44,7 @@ class Settings(BaseSettings):
     # Can be overridden via environment variable (comma-separated string)
     # Example: CORS_ORIGINS=http://localhost:3000,https://micro-salz.vercel.app
     CORS_ORIGINS: str = (
-        "http://localhost:3000,http://localhost:3001,http://localhost:5173,https://gallery-english.vercel.app/"
+        "http://localhost:3000,http://localhost:3001,http://localhost:5173,https://gallery-english.vercel.app"
     )
 
     # Frontend URL (for password reset redirects)
