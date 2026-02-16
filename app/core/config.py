@@ -44,7 +44,7 @@ class Settings(BaseSettings):
     # Can be overridden via environment variable (comma-separated string)
     # Example: CORS_ORIGINS=http://localhost:3000,https://micro-salz.vercel.app
     CORS_ORIGINS: str = (
-        "http://localhost:3000,http://localhost:3001,http://localhost:5173,https://micro-salz.vercel.app"
+        "http://localhost:3000,http://localhost:3001,http://localhost:5173,https://gallery-english.vercel.app/"
     )
 
     # Frontend URL (for password reset redirects)
@@ -54,7 +54,7 @@ class Settings(BaseSettings):
     # File Storage
     SUPABASE_STORAGE_BUCKET: str = "artworks"
     MAX_FILE_SIZE: int = 10485760  # 10MB
-    
+
     # Image Processing Settings
     IMAGE_THUMBNAIL_SIZE: int = 300  # Thumbnail max dimension (width or height)
     IMAGE_MEDIUM_SIZE: int = 1200  # Medium size max dimension
